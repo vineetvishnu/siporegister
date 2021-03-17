@@ -1,0 +1,71 @@
+p1 {width: 10px;  
+    height: 10px;  
+    background: cornsilk;  
+    position: relative;  
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */  
+    animation: myfirst 5s;  
+}  
+/* Chrome, Safari, Opera */  
+@-webkit-keyframes myfirst {  
+    0%   {background:cornsilk; left:0px; top:0px;}  
+    25%  {background:yellow; left:300px; top:0px;}  
+    50%  {background:blue; left:200px; top:300px;}  
+    75%  {background:green; left:0px; top:200px;}  
+    /*100% {background:cornsilk; left:0px; top:0px;}  */
+}  
+/* Standard syntax */  
+@keyframes myfirst {  
+    0%   {background:red; left:0px; top:0px;}  
+    25%  {background:yellow; left:300px; top:0px;}  
+    50%  {background:blue; left:300px; top:200px;}  
+    75%  {background:green; left:0px; top:200px;}  
+    /*100% {background:red; left:0px; top:0px;}*/
+    h2{
+    color: black;
+    font-size: 30px;
+    font-family: cursive;;
+        
+    }}
+p1{
+    color: darkblue;
+    font-family: cursive;
+    text-align: center;
+}
+p2{
+    color: #e62727;
+    font-family: cursive;
+    text-align: center;
+}
+
+.alpha-text{
+    color: black;
+}
+
+
+#aboutregisters{
+    font-size: 15pxactive;
+    
+}
+.level {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.level1 {
+    background-color: antiquewhite;
+}
+
+.level2 {
+    background-color: gold;
+}
+
+.level3 {
+    background-color: cornsilk;
+   width: 50%;
+    float: left;
+}
+
+img {
+    float: inherit;
+}
